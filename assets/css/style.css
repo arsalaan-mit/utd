@@ -1077,7 +1077,7 @@ section:nth-child(even) {
 @media (max-width: 768px) {
   .btn-custom {
     width: 100%;         /* still responsive */
-    max-width: 260px;    /* smaller cap than 320px */
+    max-width: 200px;    /* smaller cap than 320px */
     padding: 10px 20px;  /* reduce size inside button */
     font-size: 0.9rem;   /* slightly smaller text */
     text-align: center;
