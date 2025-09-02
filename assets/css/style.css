@@ -648,7 +648,7 @@ section:nth-child(even) {
   color: var(--utd-gray);
   margin: 2px;
   transition: all 0.3s ease;
-  border-radius: 25px;
+  border-radius: 15px;
   position: relative;
   overflow: hidden;
   background: var(--utd-white);
@@ -707,7 +707,7 @@ section:nth-child(even) {
 }
 /* Applies to both mobile and desktop */
 .portfolio #portfolio-filters li {
-  padding: 6px 6px;       /* reduce vertical and horizontal padding */
+  padding: 2px 2px;       /* reduce vertical and horizontal padding */
   line-height: 1.4;        /* tighter vertical spacing */
   font-size: 0.95rem;      /* slightly smaller text */
   border-radius: 15px;      /* keep smooth corners */
