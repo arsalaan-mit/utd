@@ -667,11 +667,6 @@ section:nth-child(even) {
   z-index: -1;
 }
 
-.portfolio #portfolio-filters li:hover,
-.portfolio #portfolio-filters li.filter-active {
-  color: var(--utd-white);
-  background: var(--utd-orange);
-}
 
 .portfolio #portfolio-filters li:hover::before,
 .portfolio #portfolio-filters li.filter-active::before {
