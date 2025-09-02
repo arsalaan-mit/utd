@@ -707,10 +707,10 @@ section:nth-child(even) {
 }
 /* Applies to both mobile and desktop */
 .portfolio #portfolio-filters li {
-  padding: 6px 14px;       /* reduce vertical and horizontal padding */
+  padding: 6px 6px;       /* reduce vertical and horizontal padding */
   line-height: 1.4;        /* tighter vertical spacing */
-  font-size: 0.95rem;      /* slightly smaller text */
-  border-radius: 6px;      /* keep smooth corners */
+  font-size: 0.80rem;      /* slightly smaller text */
+  border-radius: 15px;      /* keep smooth corners */
   display: inline-flex;    /* ensures proper vertical centering */
   align-items: center;     /* vertical centering */
   justify-content: center; /* horizontal centering */
