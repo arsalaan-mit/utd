@@ -707,7 +707,7 @@ section:nth-child(even) {
 }
 /* Applies to both mobile and desktop */
 .portfolio #portfolio-filters li {
-  padding: 2px 2px;       /* reduce vertical and horizontal padding */
+  padding: 2px 4px;       /* reduce vertical and horizontal padding */
   line-height: 1.4;        /* tighter vertical spacing */
   font-size: 0.95rem;      /* slightly smaller text */
   border-radius: 15px;      /* keep smooth corners */
