@@ -265,6 +265,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
   }
 }
+.btn-custom {
+  text-transform: none !important;  /* keeps normal casing */
+  font-family: inherit !important;  /* uses the same font as the rest of the site */
+}
 
 /* Hover + Active States */
 .nav-menu a:hover,
@@ -974,7 +978,10 @@ section:nth-child(even) {
 #footer .social-links {
   margin: 0 0 40px 0;
 }
-
+#footer .univ-name {
+  margin-top: 20px;   /* controlled gap */
+  margin-bottom: 0;   /* no extra space below */
+}
 #footer .social-links a {
   font-size: 18px;
   display: inline-flex;
@@ -1048,6 +1055,20 @@ section:nth-child(even) {
 .btn-custom:hover::before {
   left: 100%;
 }
+@media (max-width: 768px) {
+  .btn-custom {
+    width: 100%;      /* make buttons full width */
+    max-width: 320px; /* optional cap so they don't stretch too wide */
+    text-align: center;
+  }
+
+  .text-center.d-flex {
+    flex-direction: column; /* stack vertically on mobile */
+    align-items: center;
+    gap: 1rem; /* consistent spacing */
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Custom Animations
