@@ -709,7 +709,7 @@ section:nth-child(even) {
 .portfolio #portfolio-filters li {
   padding: 6px 6px;       /* reduce vertical and horizontal padding */
   line-height: 1.4;        /* tighter vertical spacing */
-  font-size: 0.80rem;      /* slightly smaller text */
+  font-size: 0.95rem;      /* slightly smaller text */
   border-radius: 15px;      /* keep smooth corners */
   display: inline-flex;    /* ensures proper vertical centering */
   align-items: center;     /* vertical centering */
