@@ -1076,15 +1076,17 @@ section:nth-child(even) {
 }
 @media (max-width: 768px) {
   .btn-custom {
-    width: 100%;      /* make buttons full width */
-    max-width: 320px; /* optional cap so they don't stretch too wide */
+    width: 100%;         /* still responsive */
+    max-width: 260px;    /* smaller cap than 320px */
+    padding: 10px 20px;  /* reduce size inside button */
+    font-size: 0.9rem;   /* slightly smaller text */
     text-align: center;
   }
 
   .text-center.d-flex {
-    flex-direction: column; /* stack vertically on mobile */
+    flex-direction: column;
     align-items: center;
-    gap: 1rem; /* consistent spacing */
+    gap: 0.8rem;         /* a bit tighter spacing */
   }
 }
 
