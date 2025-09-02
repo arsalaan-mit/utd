@@ -534,6 +534,18 @@ section:nth-child(even) {
   margin: 0 auto;
   line-height: 1.8;
 }
+.section-title p em {
+  display: block;    
+  margin-top: 1rem;   
+  font-style: italic; 
+}
+@media (max-width: 768px) {
+  .section-title p {
+    padding: 0 15px;   /* adds horizontal breathing room */
+    font-size: 1rem;   /* optional: slightly smaller text */
+  }
+}
+
 
 /*--------------------------------------------------------------
 # About
