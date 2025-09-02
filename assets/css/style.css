@@ -536,7 +536,7 @@ section:nth-child(even) {
 }
 .section-title p em {
   display: block;    
-  margin-top: 1rem;   
+  margin-top: 3rem;   
   font-style: italic; 
 }
 @media (max-width: 768px) {
@@ -545,6 +545,13 @@ section:nth-child(even) {
     font-size: 1rem;   /* optional: slightly smaller text */
   }
 }
+@media (max-width: 768px) {
+  .section-title p {
+    margin-left: 1rem;   /* add space on the left */
+    margin-right: 1rem;  /* add space on the right */
+  }
+}
+
 
 
 /*--------------------------------------------------------------
