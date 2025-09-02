@@ -705,6 +705,24 @@ section:nth-child(even) {
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 15px 40px rgba(241, 127, 41, 0.2);
 }
+/* Applies to both mobile and desktop */
+.portfolio #portfolio-filters li {
+  padding: 6px 14px;       /* reduce vertical and horizontal padding */
+  line-height: 1.4;        /* tighter vertical spacing */
+  font-size: 0.95rem;      /* slightly smaller text */
+  border-radius: 6px;      /* keep smooth corners */
+  display: inline-flex;    /* ensures proper vertical centering */
+  align-items: center;     /* vertical centering */
+  justify-content: center; /* horizontal centering */
+}
+
+/* Active and hover states keep the orange background */
+.portfolio #portfolio-filters li:hover, 
+.portfolio #portfolio-filters li.filter-active {
+  color: var(--utd-white);
+  background: var(--utd-orange);
+}
+
 
 .portfolio .portfolio-wrap img {
   border-radius: 15px 15px 0 0;
@@ -789,6 +807,7 @@ section:nth-child(even) {
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
+
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
